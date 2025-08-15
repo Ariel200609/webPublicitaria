@@ -7,7 +7,7 @@ const Portfolio = () => {
       id: 1,
       title: 'Página Web Completa',
       description: 'Sitio web profesional para concesionario de autos con diseño moderno y funcionalidades avanzadas',
-      image: '/paginawebcompleta.jpg',
+             image: 'paginawebcompleta.jpg',
       category: 'E-commerce',
       technologies: ['React', 'Tailwind CSS', 'Responsive Design'],
       link: '#',

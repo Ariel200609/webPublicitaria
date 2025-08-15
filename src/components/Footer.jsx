@@ -53,11 +53,11 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-2 mb-6">
                              <div className="w-10 h-10 bg-gradient-to-br from-corporate-primary/80 to-corporate-light/80 backdrop-blur-xl rounded-lg overflow-hidden p-1 border border-white/20">
-                <img 
-                  src="/byAriel.jpg" 
-                  alt="byAriel Logo" 
-                  className="w-full h-full object-cover rounded-lg"
-                />
+                                 <img 
+                   src="byAriel.jpg" 
+                   alt="byAriel Logo" 
+                   className="w-full h-full object-cover rounded-lg"
+                 />
               </div>
               <span className="text-2xl font-bold">byAriel</span>
             </div>

@@ -41,7 +41,7 @@ const Hero = () => {
                              {/* Logo byAriel */}
                <div className="w-32 h-32 bg-gradient-to-br from-[#70B5FF] to-[#3E90E8] rounded-full flex items-center justify-center mb-6 shadow-2xl overflow-hidden p-2">
                  <img 
-                   src="/byAriel.jpg" 
+                   src="byAriel.jpg" 
                    alt="byAriel Logo" 
                    className="w-full h-full object-cover rounded-full"
                  />

@@ -50,11 +50,11 @@ const Navbar = () => {
           >
             <div className="relative group">
               <div className="w-12 h-12 rounded-2xl overflow-hidden bg-gradient-to-br from-corporate-primary/80 to-corporate-light/80 backdrop-blur-xl border border-white/30 p-1 shadow-2xl shadow-corporate-primary/40 group-hover:shadow-corporate-primary/60 transition-all duration-500">
-                <img 
-                  src="/byAriel.jpg" 
-                  alt="byAriel Logo" 
-                  className="w-full h-full object-cover rounded-xl"
-                />
+                                 <img 
+                   src="byAriel.jpg" 
+                   alt="byAriel Logo" 
+                   className="w-full h-full object-cover rounded-xl"
+                 />
               </div>
               {/* Multiple Glow effects */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-corporate-primary/30 to-corporate-light/30 blur-2xl -z-10 group-hover:blur-3xl transition-all duration-500"></div>
