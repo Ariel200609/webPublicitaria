@@ -143,18 +143,21 @@ const Services = () => {
                   ))}
                 </ul>
 
-                {/* CTA Button */}
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className={`w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 ${
-                    service.popular
-                      ? 'bg-primary-600 hover:bg-primary-700 text-white'
-                      : 'bg-gray-100 hover:bg-gray-200 text-gray-800'
-                  }`}
-                >
-                  {service.popular ? 'Comenzar ahora' : 'Más información'}
-                </motion.button>
+                                 {/* CTA Button */}
+                 <motion.a
+                   href={`https://wa.me/2923659973?text=¡Hola! Quiero ${service.popular ? 'comenzar' : 'más información sobre'} ${service.name.toLowerCase()} con byAriel 🚀`}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   whileHover={{ scale: 1.05 }}
+                   whileTap={{ scale: 0.95 }}
+                   className={`inline-block w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 ${
+                     service.popular
+                       ? 'bg-primary-600 hover:bg-primary-700 text-white'
+                       : 'bg-gray-100 hover:bg-gray-200 text-gray-800'
+                   }`}
+                 >
+                   {service.popular ? 'Comenzar ahora' : 'Más información'}
+                 </motion.a>
               </div>
             </motion.div>
           ))}
@@ -171,17 +174,20 @@ const Services = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             ¿Necesitas algo personalizado?
           </h3>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Nuestro equipo puede crear soluciones web a medida para satisfacer 
-            cualquier necesidad específica de tu negocio.
-          </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="btn-primary text-lg px-8 py-4"
-          >
-            💬 Hablemos!!
-          </motion.button>
+                     <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+             Puedo crear soluciones web a medida para satisfacer 
+             cualquier necesidad específica de tu negocio.
+           </p>
+                     <motion.a
+             href="https://wa.me/2923659973?text=¡Hola! Quiero hablar sobre un proyecto personalizado con byAriel 🚀"
+             target="_blank"
+             rel="noopener noreferrer"
+             whileHover={{ scale: 1.05 }}
+             whileTap={{ scale: 0.95 }}
+             className="inline-block btn-primary text-lg px-8 py-4"
+           >
+             💬 Hablemos!!
+           </motion.a>
         </motion.div>
       </div>
     </section>
