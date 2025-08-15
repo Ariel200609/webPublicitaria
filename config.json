@@ -1,0 +1,82 @@
+{
+  "company": {
+    "name": "byAriel",
+    "tagline": "Tu negocio en línea en 24 horas",
+    "description": "Diseño web profesional, landing pages atractivas y páginas para promocionar tus productos. Aumenta tus ventas con presencia digital.",
+    "website": "https://byariel.com",
+    "email": "hola@byariel.com",
+    "phone": "+54 11 1234-5678",
+    "location": "Buenos Aires, Argentina"
+  },
+  "colors": {
+    "corporate": {
+      "dark": "#000437",
+      "navy": "#000649",
+      "deep": "#061191",
+      "primary": "#101FCD",
+      "secondary": "#3E90E8",
+      "light": "#70B5FF"
+    }
+  },
+  "services": {
+    "landing-page": {
+      "name": "Landing Page",
+      "price": "Desde $299",
+      "description": "Página de aterrizaje atractiva para convertir visitantes en clientes",
+      "features": ["Diseño mobile-first", "SEO optimizado", "Formularios de contacto", "Entrega en 24h"]
+    },
+    "pagina-web": {
+      "name": "Página Web Completa",
+      "price": "Desde $599",
+      "description": "Sitio web profesional con múltiples secciones y funcionalidades",
+      "features": ["5-10 páginas", "Diseño responsive", "Panel de administración", "Hosting incluido"]
+    },
+    "tienda-online": {
+      "name": "Tienda Online",
+      "price": "Desde $999",
+      "description": "E-commerce completo para vender tus productos 24/7",
+      "features": ["Catálogo de productos", "Sistema de pagos", "Gestión de inventario", "Soporte técnico"]
+    }
+  },
+  "features": [
+    {
+      "icon": "🚀",
+      "title": "Entrega en 24h",
+      "description": "Tu página web lista en menos de un día. Sin esperas, sin demoras."
+    },
+    {
+      "icon": "📱",
+      "title": "100% Responsive",
+      "description": "Se ve perfecto en móviles, tablets y computadoras. Tus clientes te ven bien en cualquier dispositivo."
+    },
+    {
+      "icon": "🔍",
+      "title": "SEO Optimizado",
+      "description": "Aparece en Google y otros buscadores. Más visibilidad = más clientes."
+    },
+    {
+      "icon": "⚡",
+      "title": "Velocidad Garantizada",
+      "description": "Páginas súper rápidas que no hacen esperar a tus clientes."
+    },
+    {
+      "icon": "🎨",
+      "title": "Diseño Profesional",
+      "description": "Interfaces modernas y atractivas que generan confianza y conversiones."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Seguridad Total",
+      "description": "Protección SSL, backups automáticos y hosting seguro incluido."
+    }
+  ],
+  "examples": {
+    "ferradas-automotores": {
+      "name": "Ferradas Automotores",
+      "description": "Sitio web completo para concesionario de autos",
+      "url": "https://ferradasautomotores.com",
+      "image": "/ejemplo-pagina-web.jpg",
+      "features": ["Catálogo de vehículos", "Sistema de consultas", "Diseño responsive", "SEO optimizado"]
+    }
+  }
+}
